@@ -1,12 +1,53 @@
-.nav-tag {
-    
+body {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+div#wrapper {
+    position: relative;
+    display: block;
+    float: none;
+    border: 2px dashed red;
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.nav-bar ul li a {
     padding: 0px 10px 0px 10px;
-    
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bar ul li a:hover {
+    color: red;
 }
 
 .nav-bar {
+    background: rgb(247, 247, 139);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
     margin: auto;
-    width: 34%;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+}
+
+.nav-bar ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    display: inline;
+    padding: 0px 10px;
 }
 
 .self-image {
@@ -29,3 +70,4 @@
 h1, p {
     text-align: center;
 }
+
