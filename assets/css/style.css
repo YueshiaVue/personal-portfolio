@@ -12,6 +12,31 @@ h1, p {
     line-height: 1;
 }
 
+.namebox {
+    display: inline;
+}
+
+.name {
+    font-size: 40px;
+    position: absolute;
+}
+
+
+.nav-list {
+    display: inline-block;
+    float: right;
+}
+
+h2 {
+    position: absolute;
+    top: 260px;
+    padding-left: 57px;
+    color: #074242;
+    font-size: 39px;
+}
+
+
+
 body {
     padding: 0px;
     margin: 0px;
@@ -35,11 +60,26 @@ header {
 
 .banner{
     width: 100%;
+    /* background-image: url(assets/images/banner.jpg); */
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:teal;
+  }
+  
+  .image-box:hover .overlay {
+    opacity: 1;
+  }
 
 
-.container {
+.image-box {
     width: 100%;
     position: relative;
 }
@@ -48,11 +88,12 @@ header {
     padding: 0px 10px 0px 10px;
     text-align: center;
     text-decoration: none;
-    color: #000;
+    color: #094a47;
+    font-size: 20px;
 }
 
 .nav-bar ul li a:hover {
-    color: red;
+    color: rgb(25, 69, 151);
 }
 
 .nav-bar {
@@ -60,9 +101,9 @@ header {
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
+    border: 3px solid green;
     margin: auto;
-    width: 100%;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 77px 15px;
 }
 
 .nav-bar ul li {
@@ -79,6 +120,13 @@ header {
     margin-right: auto;
     width: 30%;
     height: 30%;
+}
+
+.office {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 .column {
