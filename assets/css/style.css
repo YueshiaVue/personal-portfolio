@@ -3,6 +3,9 @@ h1, p {
 
 }
 
+p {
+    padding: 0px 15px 0px 15px;
+}
 .h1 {
     color: var(--tertiary);
     background-color: var(--secondary);
@@ -50,7 +53,7 @@ div#wrapper {
     position: relative;
     display: block;
     float: none;
-    border: 2px dashed red;
+    border: 2px dashed teal;
 }
 
 header {
@@ -71,7 +74,6 @@ header {
     right: 0;
     opacity: 0;
     transition: .5s ease;
-    background-color:teal;
   }
   
   .image-box:hover .overlay {
@@ -127,10 +129,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-}
-
-.column {
-
 }
 
 .center {
